@@ -1,7 +1,7 @@
-from nonebot import on_message, require
-from nonebot.adapters.cqhttp import Bot, MessageEvent, GroupMessageEvent
+from nonebot import on_command
 from nonebot.rule import to_me
 from nonebot.typing import T_State
+from nonebot.adapters import Bot, Event
 import re
 import json
 
